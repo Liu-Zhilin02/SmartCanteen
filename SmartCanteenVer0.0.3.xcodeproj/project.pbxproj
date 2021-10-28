@@ -7,15 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		509D850C272847940040B71F /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509D85092728477A0040B71F /* SnapKit.framework */; platformFilter = ios; };
+		509D850D272847940040B71F /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 509D85092728477A0040B71F /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		875D1478271BB2B600E2F4F5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D1477271BB2B600E2F4F5 /* ProfileViewController.swift */; };
+		875D1480271BEE8600E2F4F5 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D147F271BEE8600E2F4F5 /* OrderViewController.swift */; };
+		875D16D0271D0FA100E2F4F5 /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D16CF271D0FA100E2F4F5 /* BalanceViewController.swift */; };
+		875EE3C9271E647000A103E2 /* ChooseCanteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EE3C8271E647000A103E2 /* ChooseCanteenViewController.swift */; };
 		87B550F4271AC2790067D295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B550F3271AC2790067D295 /* AppDelegate.swift */; };
 		87B550F6271AC2790067D295 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B550F5271AC2790067D295 /* SceneDelegate.swift */; };
 		87B550F8271AC2790067D295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B550F7271AC2790067D295 /* ViewController.swift */; };
 		87B550FB271AC2790067D295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B550F9271AC2790067D295 /* Main.storyboard */; };
 		87B550FD271AC27D0067D295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B550FC271AC27D0067D295 /* Assets.xcassets */; };
 		87B55100271AC27D0067D295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B550FE271AC27D0067D295 /* LaunchScreen.storyboard */; };
+		87B55108271ACCB70067D295 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B55107271ACCB70067D295 /* HomePageViewController.swift */; };
+		87FC14A32725253000D64D0B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FC14A22725253000D64D0B /* MessageCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		509D85082728477A0040B71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509D85032728477A0040B71F /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
+			remoteInfo = SnapKit;
+		};
+		509D850A2728477A0040B71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509D85032728477A0040B71F /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
+			remoteInfo = "SnapKit Tests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		509D850E272847940040B71F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				509D850D272847940040B71F /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		509D85032728477A0040B71F /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "../../SnapKit-develop/SnapKit.xcodeproj"; sourceTree = "<group>"; };
+		875D1477271BB2B600E2F4F5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		875D147F271BEE8600E2F4F5 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		875D16CF271D0FA100E2F4F5 /* BalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
+		875EE3C8271E647000A103E2 /* ChooseCanteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCanteenViewController.swift; sourceTree = "<group>"; };
 		87B550F0271AC2790067D295 /* SmartCanteenVer0.0.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCanteenVer0.0.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B550F3271AC2790067D295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87B550F5271AC2790067D295 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +68,8 @@
 		87B550FC271AC27D0067D295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87B550FF271AC27D0067D295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87B55101271AC27D0067D295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B55107271ACCB70067D295 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		87FC14A22725253000D64D0B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +77,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509D850C272847940040B71F /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		509D85042728477A0040B71F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				509D85092728477A0040B71F /* SnapKit.framework */,
+				509D850B2728477A0040B71F /* SnapKit Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		87B550E7271AC2790067D295 = {
 			isa = PBXGroup;
 			children = (
+				87B5510D271AD5870067D295 /* Packages */,
 				87B550F2271AC2790067D295 /* SmartCanteenVer0.0.3 */,
 				87B550F1271AC2790067D295 /* Products */,
+				87B55111271AD62D0067D295 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +114,7 @@
 		87B550F2271AC2790067D295 /* SmartCanteenVer0.0.3 */ = {
 			isa = PBXGroup;
 			children = (
+				875EE3C8271E647000A103E2 /* ChooseCanteenViewController.swift */,
 				87B550F3271AC2790067D295 /* AppDelegate.swift */,
 				87B550F5271AC2790067D295 /* SceneDelegate.swift */,
 				87B550F7271AC2790067D295 /* ViewController.swift */,
@@ -63,8 +122,28 @@
 				87B550FC271AC27D0067D295 /* Assets.xcassets */,
 				87B550FE271AC27D0067D295 /* LaunchScreen.storyboard */,
 				87B55101271AC27D0067D295 /* Info.plist */,
+				87B55107271ACCB70067D295 /* HomePageViewController.swift */,
+				875D1477271BB2B600E2F4F5 /* ProfileViewController.swift */,
+				875D147F271BEE8600E2F4F5 /* OrderViewController.swift */,
+				875D16CF271D0FA100E2F4F5 /* BalanceViewController.swift */,
+				87FC14A22725253000D64D0B /* MessageCell.swift */,
 			);
 			path = SmartCanteenVer0.0.3;
+			sourceTree = "<group>";
+		};
+		87B5510D271AD5870067D295 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				509D85032728477A0040B71F /* SnapKit.xcodeproj */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		87B55111271AD62D0067D295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +156,15 @@
 				87B550EC271AC2790067D295 /* Sources */,
 				87B550ED271AC2790067D295 /* Frameworks */,
 				87B550EE271AC2790067D295 /* Resources */,
+				509D850E272847940040B71F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SmartCanteenVer0.0.3;
+			packageProductDependencies = (
+			);
 			productName = SmartCanteenVer0.0.3;
 			productReference = 87B550F0271AC2790067D295 /* SmartCanteenVer0.0.3.app */;
 			productType = "com.apple.product-type.application";
@@ -113,12 +195,35 @@
 			mainGroup = 87B550E7271AC2790067D295;
 			productRefGroup = 87B550F1271AC2790067D295 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 509D85042728477A0040B71F /* Products */;
+					ProjectRef = 509D85032728477A0040B71F /* SnapKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				87B550EF271AC2790067D295 /* SmartCanteenVer0.0.3 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		509D85092728477A0040B71F /* SnapKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SnapKit.framework;
+			remoteRef = 509D85082728477A0040B71F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		509D850B2728477A0040B71F /* SnapKit Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SnapKit Tests.xctest";
+			remoteRef = 509D850A2728477A0040B71F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		87B550EE271AC2790067D295 /* Resources */ = {
@@ -138,9 +243,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B55108271ACCB70067D295 /* HomePageViewController.swift in Sources */,
 				87B550F8271AC2790067D295 /* ViewController.swift in Sources */,
+				875D1478271BB2B600E2F4F5 /* ProfileViewController.swift in Sources */,
 				87B550F4271AC2790067D295 /* AppDelegate.swift in Sources */,
 				87B550F6271AC2790067D295 /* SceneDelegate.swift in Sources */,
+				875D16D0271D0FA100E2F4F5 /* BalanceViewController.swift in Sources */,
+				875EE3C9271E647000A103E2 /* ChooseCanteenViewController.swift in Sources */,
+				875D1480271BEE8600E2F4F5 /* OrderViewController.swift in Sources */,
+				87FC14A32725253000D64D0B /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
